@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coverimg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60ssp"
+        android:background="#235381"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OLD FOOTBALL GATE"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25ssp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/legendbtn"
+            android:layout_width="@dimen/_168sdp"
+            android:layout_height="@dimen/_58sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="227dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="49dp"
+            android:importantForAutofill="auto"
+            android:src="@drawable/btn1" />
+
+        <ImageButton
+            android:id="@+id/miraclebtn"
+            android:layout_width="@dimen/_168sdp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginEnd="69dp"
+            android:importantForAutofill="auto"
+            android:src="@drawable/btn2" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Miracle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D5D5D5"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60ssp"
+            android:background="#235381"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/backbtn1"
+                android:background="#235381"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_10ssp"
+                android:layout_marginRight="@dimen/_10ssp"
+                android:src="@drawable/vector"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="OLD FOOTBALL GATE"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/football1"
+                    android:layout_gravity="center"
+
+                    />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="@dimen/_14sdp"
+                            android:text="The year was 1950, and the local football team was facing their biggest rivals in the championship game. The crowd was roaring, the air was electric, and the tension was palpable.
+\n\nAs the clock ticked down, the score remained tied, and the game seemed destined for a draw. But in the final minute of play, the home team was awarded a penalty kick, a chance to win the game and claim the title.
+\n\nThe tension was unbearable as the player stepped up to take the kick. He lined up the shot, took a deep breath, and kicked the ball with all his might. The ball sailed towards the goal, but it was blocked by the goalkeeper's outstretched arms."
+                            android:layout_margin="30dp"/>
+                    </LinearLayout>
+                </ScrollView>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
