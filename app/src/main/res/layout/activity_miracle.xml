@@ -71,6 +71,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:textSize="@dimen/_14sdp"
+                            android:textColor="@color/black"
                             android:text="The year was 1950, and the local football team was facing their biggest rivals in the championship game. The crowd was roaring, the air was electric, and the tension was palpable.
 \n\nAs the clock ticked down, the score remained tied, and the game seemed destined for a draw. But in the final minute of play, the home team was awarded a penalty kick, a chance to win the game and claim the title.
 \n\nThe tension was unbearable as the player stepped up to take the kick. He lined up the shot, took a deep breath, and kicked the ball with all his might. The ball sailed towards the goal, but it was blocked by the goalkeeper's outstretched arms."

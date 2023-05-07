@@ -70,6 +70,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:textColor="@color/black"
                             android:textSize="@dimen/_14sdp"
                             android:text="The old football gate had been standing at the edge of the field for as long as anyone could remember. It was rusted and weathered, but still sturdy enough to keep the players and the spectators separated.
 \n \nLegend had it that the gate had been there since the beginning of the football club, back when the games were played on a dirt field with no lines or markings. The gate had been salvaged from an old farm, and its owners had donated it to the club as a gesture of goodwill."
