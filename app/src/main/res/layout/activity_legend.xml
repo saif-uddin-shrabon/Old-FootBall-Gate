@@ -13,33 +13,38 @@
         android:orientation="vertical"
         android:background="#D5D5D5"
         >
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/_60ssp"
             android:background="#235381"
             android:orientation="horizontal">
+
             <ImageButton
                 android:id="@+id/backbtn"
-                android:background="#235381"
-                android:layout_gravity="center"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
-                android:layout_marginLeft="@dimen/_10ssp"
-                android:layout_marginRight="@dimen/_10ssp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="#235381"
                 android:src="@drawable/vector"
-                />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:fontFamily="@font/oswaldmedium"
+                android:gravity="center"
                 android:text="OLD FOOTBALL GATE"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_20ssp"
-                android:gravity="center"
-                android:layout_marginLeft="@dimen/_5sdp"
-                />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -70,6 +75,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:fontFamily="@font/oswaldmedium"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_14sdp"
                             android:text="The old football gate had been standing at the edge of the field for as long as anyone could remember. It was rusted and weathered, but still sturdy enough to keep the players and the spectators separated.

@@ -7,7 +7,7 @@
     android:background="@drawable/coverimg"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_60ssp"
         android:background="#235381"
@@ -16,46 +16,50 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:fontFamily="@font/oswaldmedium"
             android:text="OLD FOOTBALL GATE"
             android:textColor="@color/white"
             android:textSize="@dimen/_25ssp"
-            android:gravity="center"
-            android:layout_gravity="center"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <ImageButton
             android:id="@+id/legendbtn"
             android:layout_width="@dimen/_168sdp"
             android:layout_height="@dimen/_58sdp"
             android:layout_gravity="center"
-            android:layout_marginStart="95dp"
-            android:layout_marginTop="227dp"
-            android:layout_marginEnd="68dp"
-            android:layout_marginBottom="49dp"
+            android:layout_marginTop="80dp"
             android:importantForAutofill="auto"
-            android:src="@drawable/btn1" />
+            android:src="@drawable/btn1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/miraclebtn"
             android:layout_width="@dimen/_168sdp"
             android:layout_height="58dp"
             android:layout_gravity="center"
-            android:layout_marginStart="95dp"
-            android:layout_marginTop="340dp"
-            android:layout_marginEnd="69dp"
+            android:layout_marginTop="20dp"
             android:importantForAutofill="auto"
-            android:src="@drawable/btn2" />
+            android:src="@drawable/btn2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legendbtn" />
 
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
